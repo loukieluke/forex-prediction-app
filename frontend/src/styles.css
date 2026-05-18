@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply rounded-md border border-slate-700 bg-slate-800 px-3 py-2 text-sm font-medium hover:bg-slate-700 disabled:opacity-60;
+}
